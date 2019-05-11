@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding:0;
+}
+header{
+	
+	background-color: #2089b1;
+
+}
+.one{
+	margin-left: 246px;
+	text-transform: uppercase;
+	word-spacing: 0px;
+}
+#two{
+	margin-left: 213px;
+	padding: 15px 0;
+	text-transform: capitalize;
+	word-spacing: 2em;
+	font-family:arial,serif;
+	font-size: 10px;
+	color: #fff;
+}
+#two :hover {
+	text-transform: uppercase;
+	background-color: #eee;
+	color: black;
+	padding: 10px;
+	border: 1px solid red;
+	border-radius: 4px;
+	cursor: pointer;
+	outline-color: aqua;
+
+}
+#two :active {
+	font-weight: bolder;
+	color: green;
+
+}
+body{background-color:#8cc3b40a; 
+	
+
+}
+article{
+	background-color: ##f1e9e905;
+	height: 442px;
+	font-family: tahoma;
+	width: 787px;
+	margin:0 auto;
+}
+#hunter{
+	border-bottom: 1px solid #5e696842;
+	/*margin: 0 0 20px;*/
+	/*padding:0 0 10px;*/
+
+
+}
+#king{display: flex;
+
+}
+.you{
+	background-color: white;
+    padding: 19px 0;
+    width: 280px;
+    margin: 18px 0;
+    border: 1px solid #00000026;
+    height: 85px;
+    border-radius: 4px;
+    font-size: 11px;
+}
+.me{
+	    background-color: white;
+    padding: 10px 0;
+    width: 504px;
+    margin-left: 16px;
+    border: 1px solid #00000026;
+    border-radius: 5px;
+    margin-top: 16px;
+    height: 138px;
+}
+.we{
+	background-color: white;
+    padding: 0px 0;
+    width: 274px;
+    margin: -7px 0;
+    border: 1px solid #00000026;
+    height: 104px;
+    border-radius: 4px;
+    font-size: 8px;
+
+
+
+}
+
+
+@media (max-width: 767px){
+	
+
+#hunter p  small{
+		color: blue !important;
+		padding: 30px !important;
+		font-size: 50px;
+	}
+
+	
+}

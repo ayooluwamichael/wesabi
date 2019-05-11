@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+         <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip(); 
+            });
+        
+        </script>
+        
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: "Lato", 'open sans', serif;
+            
+            
+}
+        .one{
+            border-radius: 5px;
+/*            padding: 15px;*/
+            outline: none;
+            padding: 5px 10px;
+        }
+        span{
+            color: white;
+           
+        
+    
+            
+        }
+        
+        a{
+            color: white;
+        }
+        .container-one{
+             background-image: url(station.jpg);
+/*          background-repeat: repeat-x;*/
+            background-attachment: fixed;
+            background-size: cover;
+            
+            
+            
+            
+        }
+        .column-one{
+            word-spacing: 5px;
+            margin-left: -30px;
+        }
+        .column-two{
+            word-spacing: 50px;
+        }
+        .column-three{
+            padding-left: 52px;
+        }
+        .btn{
+            background-color: transparent;
+            border: 1px solid white;
+            margin-top: -9px;
+            margin-bottom: 4px;
+          
+        }
+        .btn:hover{
+            background-color: #eee;
+        }
+        .header-text{
+            padding-top: 15px;
+            padding-left: 198px;
+            border-bottom: 1px solid #eee;
+            
+        }
+       
+        li{
+            display: inline-block;
+            list-style: none;
+            color: white;
+        }
+            
+         li:hover{
+                color: purple;
+            }
+        }
+        .become{
+/*            margin-left: -100px;*/
+            margin-right:- 200px;
+        }
+        .sub{
+            margin-left: 21px;
+        }
+        .button{
+            margin-left:22px;
+            padding: 10px 30px 10px 30px;
+            background-color: transparent;
+            border: 1px solid #eee;
+            border-radius: 5px;
+        }
+        .button:hover{
+            background-color: #eee;
+        }
+        nav{
+           padding-top: 25px;
+            margin-left: 124px;
+            padding-left: 0;
+        }
+        .wesabi{
+                font-family: tahoma;
+                font-size: 50px;
+                padding: 10px 0 0 114px;
+               
+        }
+        .sabi{
+            color: #b94a86;
+            margin-left: -10px;
+            text-shadow: 2px 2px black;
+             font-weight: bolder;
+        }
+        .we{
+            font-family:cursive;
+            
+        }
+        .row-three{
+            text-align: center;
+        }
+        .little{
+            color: white;
+                font-family: tahoma;
+                font-weight: 500;
+                line-height: 1.2;
+            font-size: 50px;
+            margin-top: 50px;
+        }
+        .puppy{
+            word-spacing: 5px;
+            font-family: "Lato", 'open sans', sans-serif;
+        }
+        .group{
+            text-align: center;
+            margin-top: 40px;
+            font-family: sans-serif;
+/*            font-size: 35px;*/
+                
+            
+        }
+       
+        .magic-one{
+            border: 1px solid white;
+            background-color: #b94a86;
+             padding: 15px 60px;
+            border-radius: 0;
+            color: white;
+/*            margin-bottom: 10px;*/
+            text-shadow: 1px 1px 1px black;
+            font-size: 20px;
+        }
+        .magic-one:hover{
+            opacity: 0.8;
+            background-color:#b94a86 !important;
+            color: white;
+ 
+        }
+        
+        .magic-two{
+             padding: 15px 60px;
+            border-radius: 0;
+            background-color: transparent;
+            border: 2px solid #b94a86;
+            color: white;
+            font-size: 20px;
+            
+        }
+        .magic-two:hover{
+            background-color: ghostwhite;
+            color: #b94a86;
+        }
+        .magic-three{
+             padding: 15px 60px;
+            border-radius: 0;
+            background-color: #eee;
+            border: 1px solid #b94a86;
+            font-size: 20px;
+        }
+        .magic-three:hover{
+            border-color: whitesmoke;
+            background-color: #b94a86;
+            color: whitesmoke;
+            
+        }
+        small{
+            padding-left: 5px;
+        }
+        .minus{
+            font-size: 70px;
+            color: black;
+            text-align: center;
+            margin: 150px 0 0 0;
+        }
+        .menu{
+            display: none;
+        }
+        .what{
+            text-align: center;
+            margin-top: 80px;
+            font-size: 30px;
+            font-family: sans-serif;
+            text-transform: uppercase;
+           font-family:  "Lato", 'open sans',sans-serif;
+            border-bottom: 1px solid #C5C0C6;
+            
+            
+        }
+        .tell-us{
+            text-align: center;
+            
+            font-size: 19px;
+            font-family:  "Lato", 'open sans',sans-serif;
+        }
+        .biggy{
+            background-color: #d3d3d352;
+        }
+        .do{
+            padding-bottom: 10px;
+        }
+        .mix{
+        
+
+        }
+         .source-one{
+                   background-color: white;
+                box-shadow: 1px 3px 3px 3px #808080b8;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            /*margin: 10px;*/
+            
+           
+           
+            }
+            .source{
+                 background-image: url(plumbing.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+
+            }
+            .source-a{
+                 background-image: url(yellow.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+
+            }
+            .source-b{
+                 background-image: url(bricks.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+            }
+            .source-c{
+                 background-image: url(mecho.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+            }
+             .source-d{
+                 background-image: url(weldings.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+            }
+             .source-e{
+                 background-image: url(brick.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+            }
+             .source-f{
+                 background-image: url(iron.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+            }
+             .source-g{
+                 background-image: url(grinder.jpg);
+             background-repeat: no-repeat;
+             background-size: cover;
+             height: 200px;
+            }
+
+            .source-two{
+                   background-color: white;
+                box-shadow: 1px 3px 3px 3px #808080b8;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            /*margin: 10px;*/
+            }
+            .source-three{
+                   background-color: white;
+                box-shadow: 1px 3px 3px 3px #808080b8;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            /*margin: 10px;*/
+                
+            }
+            .source-four{
+               background-color: white;
+                box-shadow: 1px 3px 3px 3px #808080b8;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            /*margin: 10px*/
+            }
+            .icons{
+                font-size: 20px;
+                color: black;
+                padding-left: 60px;
+            }
+            .first{
+                font-size: 20px;
+                padding-top: 15px;
+            }
+            .pee{
+                padding-left: 6px;
+                color: purple;
+                padding-top: 3px;
+            }
+            .carry{
+                margin-top: 60px;
+            }
+            .rows{
+                display: flex;
+            }
+            img{
+                width: 100%;
+            }
+            .secondary{
+                margin-top:0;
+            }
+            .bit{
+                background-color: purple;
+                text-shadow: 1px 1px black;
+                padding: 10px 30px;
+                border: 2px solid #af8cae;
+                border-radius: 5px;
+            }
+        @media (max-width: 600px){
+            nav{
+                display: none;
+            }
+            .carry{
+                margin-top: 0;
+            }
+            
+            .menu{
+                display: block;
+                font-size: 30px;
+                    margin-top: 24px;
+                text-align: right;
+            }
+            .column-two,.column-three{
+                display: none;
+            }
+            .source,.source-a,.source-b,.source-c.source-d,.source-e,.source-f,.source-g{
+                margin: 6px 0;
+
+
+            }
+
+             .column-one{
+            
+           word-spacing: 7px;
+            margin-left: -228px;
+            
+            padding-bottom: 10px;
+            text-align: center;
+            
+
+        }
+            .wesabi{
+                    font-family: tahoma;
+                font-size: 50px;
+                padding: 10px 0 0 0px;
+                
+            
+            
+            
+        }
+        .icons{
+            padding-left: 239px;
+        }
+            
+            
+            .magic-one{
+                padding: 15px 90px;
+                margin:3px;
+            }
+            .magic-two{
+                margin: 3px;
+                padding: 15px 56px;
+            }
+            .magic-three{
+                  padding: 15px 79px;
+                margin: 3px;
+                
+            }
+            .sabi{
+                margin-left: -13px;
+            }
+            .little{
+                font-size: 32px;
+            }
+           
+            
+            
+        
+    
+            
+        
+    </style>
+</head>
+<body>
+    <div class="container-fluid container-one" >
+        <header>
+            <div class="header-text">
+                <div class="row">
+                    <div class="col-md-4 col-xs-4">
+                        <div class="column-one">
+                            <a href="#" data-toggle="tooltip" title="call us" data-placement="left"><i class="fas fa-phone"></i></a>
+                            <a href="#" data-toggle="tooltip" title="send us message on whatsapp"><i class="fab fa-whatsapp"></i></a>
+                            <span>0909-175-3863</span>
+                            <a href="#" data-toggle="tooltip" title="write at us"><i class="far fa-envelope"></i>info@ayooluwa.com</a>
+                         </div>
+                    
+                    
+                    </div>
+                    <div class="col-md-4 col-xs-4">
+                         <div class="column-two">
+                            <a href="#" data-toggle="tooltip" title="connect with us on facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" data-toggle="tooltip" title="connect with us on twitter"> <i class="fab fa-twitter-square"></i></a>
+                            <a href="#" data-toggle="tooltip" title="coonect with us on instagram"><i class="fab fa-instagram"></i></a>
+                        </div>
+                     </div>
+                       
+                    <div class="col-md-4 col-xs-4">
+                         <div class="column-three">
+                            <a href="#">
+                                 <button type="button" class="btn ">Refer an Artisan</button>
+                             </a>
+                         </div>
+                
+                
+                   </div>
+            
+            </div>
+         </div>
+        </header>
+        <div>
+            <div class="row">
+                <div class="col-md-6 col-xs-6">
+                   <div class=" wesabi">
+                       <span class="we">We</span>
+                      <span class="sabi">Sabi</span>
+                
+                </div>
+                
+                
+                </div>
+                 <div class="col-md-6 col-xs-6">
+                     <div class="bar">
+                      <nav>
+                        <ul>
+                            <li class="become">Become a Wesabi Pro</li>
+                            <li class="sub">Subscription</li>
+                            <li>
+                                <a href="boosForm.html">
+                                    <button class="button"><i class="fas fa-lock"></i><small>Login</small></button>
+                                 
+                                </a>
+
+                            
+                            </li>
+      
+                         </ul>
+                     
+                     
+                     
+                     </nav>
+                       <div class="menu">
+                                 <a href="boosForm.html"> <i class="fas fa-bars"></i></a>
+                            
+                         </div>
+                     
+                     
+                     </div>
+             
+                </div>
+
+        
+            </div>
+        
+        </div>
+        <div class="container">
+        
+            <div class="row">
+                <div class="row-three">
+                    <div class="little">
+                        <p class="puppy">Hire Trusted in your</p>
+                        <p>Neighbourhood</p>
+                
+                    </div>
+                
+                     <div class="btn-group">
+                         <div class="group">
+                         
+                          <button type="button" class="btn magic-one">Book a WesabiPro</button>
+                          <button type="button" class="btn magic-two">Subscribe to a Home Plan</button>
+                          <button type="button" class="btn magic-three">Become a WesabiPro</button>
+                        </div>
+                    </div>
+            </div>
+        
+            </div>
+        
+        </div>
+       <div class="minus">
+            <a href="#">
+                <span class="glyphicon glyphicon-minus" style="color: white; font-size: 35px;"></span>
+            </a>
+        
+        
+        </div>
+    </div>
+<!--       <div class="container-fluid" -->
+          <div class="biggy">
+               
+           <div class="container">
+               
+              <div class="what">
+                 <p class="do">What do you want done ?</p>
+              </div>
+               <br>
+               <p class="tell-us">Tell us what task you want done,our always right on time WesabiPro will call you in a matter of minutes... </p>
+               <div class="carry">
+                   
+
+
+             <div class="row ">
+                <div class="col-md-3 col-xs-12" >
+                    <div class="source-one">
+                        
+                        <div class="source"></div>
+
+                  
+                        <div class="first">
+                            
+                            <small>share with a friend</small>
+                            <a href="#"><span class="glyphicon glyphicon-option-horizontal icons"  ></span></a>
+                             <p class="pee">plumbing</p>
+                        </div>
+                    </div>
+                    
+                    
+                
+                
+                </div>
+                <div class="col-md-3 col-xs-12 " >
+                    <div class="source-two">
+                        
+                        <div class="source-a"></div>
+
+                  
+                        <div class="first">
+                            
+                            <small>share with a friend</small>
+                            <a href="#"><span class="glyphicon glyphicon-option-horizontal icons"  ></span></a>
+                             <p class="pee">carpentry</p>
+                        </div>
+                    </div>
+                    
+                    
+                
+                
+                </div>
+                <div class="col-md-3 col-xs-12 " >
+                    <div class="source-three">
+                        
+                        <div class="source-b"></div>
+
+                  
+                        <div class="first">
+                            
+                            <small>share with a friend</small>
+                            <a href="#"><span class="glyphicon glyphicon-option-horizontal icons"  ></span></a>
+                             <p class="pee">bricklayer</p>
+                        </div>
+                    </div>
+                    
+                    
+                
+                
+                </div>
+                <div class="col-md-3 col-xs-12 " >
+                    <div class="source-four">
+                        
+                        <div class="source-c"></div>
+
+                  
+                        <div class="first">
+                            
+                            <small>share with a friend</small>
+                            <a href="#"><span class="glyphicon glyphicon-option-horizontal icons" ></span></a>
+                             <p class="pee">mechanic</p>
+                        </div>
+                    </div>
+                    
+                    
+                
+                
+                </div>
+               
+
+
+               
+               
+               
+               
+               
+               
+              </div>
+            <div class="row secondary">
+                <div class="col-md-3 col-xs-12">
+                     <div class="source-four">
+                        
+                        <div class="source-d"></div>
+
+                  
+                        <div class="first">
+                            
+                            <small>share with a friend</small>
+                            <a href="#"><span class="glyphicon glyphicon-option-horizontal icons" ></span></a>
+                             <p class="pee">blacksmith</p>
+                        </div>
+                    </div>
+                    
+
+                    
+                </div>
+                <div class="col-md-3 col-xs-12">
+                     <div class="source-four">
+                        
+                        <div class="source-e"></div>
+
+                  
+                        <div class="first">
+                            
+                            <small>share with a friend</small>
+                            <a href="#"><span class="glyphicon glyphicon-option-horizontal icons" ></span></a>
+                             <p class="pee">brick</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-3 col-xs-12">
+                     <div class="source-four">
+                        
+                        <div class="source-f"></div>
+
+                  
+                        <div class="first">
+                            
+                            <small>share with a friend</small>
+                            <a href="#"><span class="glyphicon glyphicon-option-horizontal icons" ></span></a>
+                             <p class="pee">house hold </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-3 col-xs-12">
+                     <div class="source-four">
+                        
+                        <div class="source-g"></div>
+
+                  
+                        <div class="first">
+                            
+                            <small>share with a friend</small>
+                            <a href="#"><span class="glyphicon glyphicon-option-horizontal icons" ></span></a>
+                             <p class="pee">welding</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+
+               
+               
+               
+               
+               
+               
+             </div>
+               
+           
+           
+           
+           
+           
+           </div>
+        
+               </div>
+                          <div class="last-text" style="text-align: center;font-size: 35px; color: black;
+                          margin-top: 50px;">
+               
+                                     <p>Can't find a service you're looking for?</p>
+                         </div>
+
+                         <div style="text-align: center;margin-top: 90px;font-size: 20px;">
+                             <a href="">
+                                 <button class="bit">Book a Service</button>
+                             </a>
+                         </div>
+        
+
+           
+           </div>
+
+
+
+    
+    
+    
+    
+        </div>
+    
+  
+ </body>
+</html>

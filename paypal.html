@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>paypal</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding:0;
+		font-family: paypal,sans-serif;
+
+	}
+		.mummy{
+			/*position: relative;*/
+			/*left: 357px;*/
+			margin-left: 385px;
+
+		}
+		.navs{
+			    padding: 17px 0 17px 118px;
+			    color: white;
+			    background-color: #0e5e92;
+			    
+			    word-spacing: 30px;
+			    font-size: 13px;
+			    text-transform: capitalize;
+		}
+		a:hover{
+			border-bottom: 1px solid white;
+			padding-bottom: 5px;
+		}
+		i{
+			font-size: 17px;
+		}
+		.body{
+			background-color: #e3e4e45e;
+	        height: 534px;
+	        /*max-width:1000px;*/
+		}
+		.article{
+			    width: 1073px;
+                margin: 0 0 0 132px;
+                background-color: #ece7e705;
+                height: 476px;
+		}
+		.first-line{
+			padding: 25px 0 0 3px;
+			border-bottom: 1px solid #c5bfbff2;
+
+		}
+		#user,#pay{
+			border-radius:50%;
+			background-color: white;
+			color:#60a5c5;
+			font-size: 35px;
+			border:1px solid #60a5c5;
+			padding: 20px;
+
+
+		}
+		#user,#pay:hover{
+			background-color:#00bcd405;
+		
+
+		}
+
+		.text{
+			position: relative;
+			top:-17px;
+			left: 18px;
+			word-spacing: 5px;
+			font-size: 18px;
+		}
+		.second-text{
+			position: relative;
+		    top: -33px;
+		    left: 105px;
+		    border: 1px solid #60a5c5;
+		    border-radius: 18px;
+		    background-color: white;
+		    font-size: 11px;
+		    padding: 5px;
+		    color: #60a5c5;
+		    width: 164px;
+		    font-weight: bold;
+		    padding-left: 10px;
+		    margin-bottom: -54px;
+
+		}
+		.second-text:hover{
+			/*background-color: powderblue;*/
+		}
+		.goods{
+			    color: #60a5c5;
+			    font-size: 11px;
+			    position: relative;
+			    left: -26px;
+			    top: -2px;
+			    margin-bottom: -71px;
+			  
+
+		}
+		.second-line{
+			position: relative;
+			left: 856px;
+			top: -98px;
+		
+		}
+		.cards{
+			width: 339px;
+			height: 120px;
+			background-color: white;
+			border:1px solid #eee;
+			border-radius: 4px;
+			margin-top: 31px;
+			padding:11px 10px 5px 16px;
+			line-height: 19px;
+			float: left;
+			margin-bottom: 27px;
+		}
+		.small-one{
+			display: block;
+			margin-top: 12px;
+			margin-bottom: 15px;
+		}
+		.add{
+			    padding: 8px 15px;
+		    border: 1px solid #60a5c5;
+		    border-radius: 25px;
+		    color: #60a5c5;
+		}
+		.completed{
+			width: 658px;
+			height: 137px;
+			background-color: white;
+			border:1px solid #eee;
+			border-radius: 4px;
+			margin-top: 31px;
+			float: right;
+			padding: 11px 10px 5px 16px;
+
+		}
+		.University{
+			    background-color:#ece7e76e;
+		    width: 652px;
+		    height: 34px;
+		    padding: 10px 0px;
+		    margin-top: 10px;
+			}
+		.one{
+			padding-top: 15px;
+			padding-left:15px;
+
+		}
+		.University:hover{
+			background-color: lightgrey;
+
+		}
+		.two{
+			margin-left: 324px;
+		}
+		.three{
+			padding-left: 10px;
+			word-spacing: 28px;
+		}
+		.number{
+			padding-left: 10px;
+		}
+		h6{
+			    text-align: center;
+			    text-transform: capitalize;
+			    margin-top: 14px;
+			    color: #60a5c5;
+		}
+		h6:hover {
+			font-weight: bolder;
+			text-transform: uppercase;
+			border:1px solid #eee;	
+			border-radius: 3px;
+			padding: 10px;
+			/*display: inline-block;	*/
+			width: 20px;
+		}
+		.more{
+			clear: both;
+	
+			width: 365px;
+			height: 100px;
+			background-color: white;
+			border:1px solid #eee;
+			border-radius: 4px;
+			margin-top: 31px;
+			font-size: 13px;
+		}
+		p{
+			padding: 10px;
+			color: #60a5c5;
+		}
+		.footer{
+			padding: 30px;
+			background-color: #fff;
+			clear: left;
+
+		}
+		.menu{
+			width:1073px;
+			margin: 0 0 0 104px;
+			border-bottom: 1px solid #9080808a;
+			padding-bottom: 10px;
+			word-spacing: 10px;
+			font-size: 14px;
+
+		}
+		.copy{
+			text-align: right;
+			padding: 10px 108px 0 0;
+			margin-right: 20px;
+			font-size: 13px;
+
+		}
+		#bars{
+			display: none;
+			position: absolute;
+		 
+
+
+		}
+		@media (max-width: 767px){
+			#bars{
+				display: inline;
+				font-size: 40px;
+				margin-left: 2px;
+				position: relative;
+
+			}
+			.navs a{
+				display:none;
+
+
+			}
+			#pal{
+				display:inline;
+				font-size: 40px;
+				text-align: center;
+				margin-left: 64px;
+			}
+			#bell{
+				display: inline;
+				font-size: 40px;
+				margin-left: 120px;
+
+
+			}
+			.navs{
+				padding: 0;
+				padding-top: 31px;
+				padding-left: 16px;
+			}
+			#cog{
+				display: none;
+			}
+			#bell{
+				margin-left:-73px;
+				display: inline;
+				position: relative;
+				top: -39px;
+
+				/*position: relative;*/
+				/*left: 70px;*/
+
+			}
+			body{
+	
+			}
+			#user ,#pay {
+				display: none;
+			}
+			.text{
+			top:31px;
+
+	
+		
+		   }
+			.second-text{
+			position: relative;
+		    top: 35px;
+		    left: 17px;
+		    border: 1px solid #60a5c5;
+		    border-radius: 18px;
+		    background-color: white;
+		    font-size: 11px;
+		    padding: 5px;
+		    color: #60a5c5;
+		    width: 164px;
+		    font-weight: bold;
+		    padding-left: 10px;
+		    margin-bottom: 63px;
+
+		}
+		.first-line{
+			padding: 25px 0 0 3px;
+			border-bottom: 1px solid #c5bfbff2;
+		}
+		.article{
+			    width: 400px;
+                margin: 0 0 0 0;
+				
+            
+            }
+            .cards{
+			width: 373px;
+			height: 120px;
+			background-color: white;
+			border:1px solid #eee;
+			border-radius: 4px;
+			margin-top: 31px;
+			padding:11px 10px 5px 16px;
+			line-height: 19px;
+			float: left;
+			margin-bottom: 27px;
+			border-right: none;
+		}
+		.completed{
+			display: none;
+		}
+		.more{
+			width: 399px;
+
+			border-right: none;
+		}
+		.footer{
+			padding: 50px;
+		}
+		.menu{
+			width: 372px;
+			margin-left: -36px;
+			border-bottom-style: dotted;
+
+
+
+		}
+		.copy{
+		
+		    padding: 33px 0px 31px 0;
+		    margin-right: 26px;
+		    font-size: 13px;
+		}
+		.rights{
+			padding-right:0;
+			margin-bottom: 20px;
+		}
+
+		.drop-down{
+			width: 123px;
+			border: 1px solid powderblue;
+			font-size: 17px;
+			color: black;
+			background-color: white;
+			padding:20px;
+			border-radius: 5px;
+			font-weight:bold;
+			margin:0;
+			/*list-style: cambodian;*/
+			display: none;
+			position: absolute;
+			z-index: 40;
+		}
+		#bars:hover .drop-down{
+			display: block;
+
+		}
+		select{
+			position: relative;
+		}
+		.option{
+			padding: 30px;
+			position: absolute;
+			border: 1px solid grey;
+			border-radius: 5px;
+			color: powderblue;
+			display: none;
+
+
+		}
+		
+		}
+
+
+		
+
+	</style>
+</head>
+<body>
+	<div class="navs">
+		 <i class="fas fa-bars" id="bars">
+		 	<div class="drop-down">
+
+		 		<p>instructions</p>
+		 		<p>login</p>
+		 		<p>comments</p>
+		 		<p>domain</p>
+		 		
+		 	</div>
+		 </i>
+		 <i class="fab fa-paypal" id="pal"style="position: relative;left: 15px;"></i>
+  		 <a>summary</a>
+  		 <a>activity</a>
+  		 <a>sendpayments</a>
+	  	 <a style="">wallet</a>
+	  	 <a style="">offers</a>
+	  	 <a style="">help</a>
+  		 <span class="mummy">
+  		 	<i class="fas fa-bell" id="bell"></i>
+  		 	<i class="fas fa-cog" id="cog"style="position: relative;left: 15px;"></i>
+  		 	<a style="text-transform: uppercase;">log</a>
+  		 	<a style="position: relative;left: -30px;text-transform: uppercase;">out</a>
+  		 </span>
+   </div>
+   <div class="body">
+   	    <article class="article">
+         	<div class="first-line">
+         		<i class="fas fa-user-plus" id="user"></i>
+         		<span class="text">Hi again, Ayooluwa!</span>
+         	 	<p class="second-text">Get the most out of paypal 
+         	 		<select style="outline: none;border: none;">
+         	 			<div class="option">
+         	 				<option>weekly offers</option>
+	         	 			<option>monthly offers</option>
+	         	 			<option>yearly offers</option>
+         	 			</div>
+         	 		</select></p>
+         	 	<span class="second-line">
+         	 		<i class="fab fa-cc-paypal" id="pay"style="position: relative;top: 47px;font-size: 28px;"></i>
+         	 		<!-- <p class="goods"> Pay for goods or services</p> -->
+         	 	
+         	    </span>
+         	</div>
+         	<section>
+         		<div class="cards">
+         			<strong>cards</strong>
+         			<small class="small-one">Add your cards now to start shopping and sending payments</small>
+         			<small class="add">Add a card</small>
+         				
+         		</div>
+         		<div class="completed">
+         			<strong style="display: block;">completed</strong>
+         			<div class="University">
+         				<small class="number">FEB</small>
+         				<small class="one">  Mapluto University of Management</small>
+	         			<small class="two">-$50.00</small>
+	         			<small style="display: block;" class="three"><date> 18  payment</date></small>
+	         		</div>
+         			<h6>view all</h6>
+         		</div>
+         		<div class="more">
+         			<p style="padding-bottom: 12px;color: black;font-weight: bold;">More about your acount</p>
+         			<p style="padding-bottom: 0px;">Resolve a problem in our resolution center</p>
+         			<p style="margin-top: -5px;">See how much you can send with paypal</p>
+         		</div>
+         	</section>
+        </article>
+        <footer class="footer">
+        	<div class="menu">
+        		<a>HELP</a>
+        		<a style="margin-left: 3px;">CONTACT</a>
+        		<a style="margin-left:-9px; ">US</a>
+        		<a style="margin-left: 10px;">SECURITY</a>
+        		
+        	</div>
+        	<div class="copy">
+        		<small style="padding-right: 38px;"class="rights">Copyright &copy;1999-2019 paypal. All rights reserved</small>
+	        	<small style="padding-right: 20px;"class="privacy">privacy</small>
+	        	<small class="legal">legal</small>
+        	</div>
+        </footer> 	
+   </div>
+</body>
+</html>
